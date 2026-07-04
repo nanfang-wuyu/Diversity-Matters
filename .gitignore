@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.env
+.env.*
+*.key
+*.pem
+config.local.json
+
+# Generated outputs and caches
+output/
+outputs/
+data/
+logs/
+final_output/
+final_output_old/
+*.log
+*.pkl
+*.jsonl
+
+# Large archives and model artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
